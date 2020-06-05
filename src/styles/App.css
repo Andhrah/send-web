@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#logo-image {
+  width: 12vmin;
+}
+.btn-red {
+  color: #fff;
+  background-color: #ff5a5a;
+  border-color: #ff5a5a;
+}
+.height-100 {
+  height: 100vh;
+}
+.text-paragraph {
+  color: #6984a3!important;
+}
+.lp-1 {
+  letter-spacing: 1px;
+}
+.filter {
+  -webkit-filter: invert(50%);
+  filter: invert(50%);
+}
+.pb-6, .py-6 {
+  padding-bottom: 5rem!important;
+}
+.pt-6, .py-6 {
+  padding-top: 5rem!important;
+}
+.bg-primary-light {
+  background-color: rgba(47,128,237,.0509804)!important;
+}
+.mb-6, .my-6 {
+  margin-bottom: 5rem!important;
+}
+.rounded {
+  border-radius: .25rem!important;
+}
+.bg-paragraph-light {
+  background-color: #eaf2fd!important;
+}
+.mb-7, .my-7 {
+  margin-bottom: 7rem!important;
+}
+.mb-10, .my-10 {
+  margin-bottom: 10rem!important;
+}
+.rounded {
+  border-radius: .25rem!important;
+}
+.bg-blue-bg {
+  background-color: rgba(47,128,237,.101961)!important;
+}
+.pb-7, .py-7 {
+  padding-bottom: 7rem!important;
+}
+.pt-7, .py-7 {
+  padding-top: 7rem!important;
+}
+
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.pl-7, .px-7 {
+  padding-left: 7rem!important;
+}
+.pr-7, .px-7 {
+  padding-right: 7rem!important;
+}
+.pb-8, .py-8 {
+  padding-bottom: 8rem!important;
+}
+.pt-8, .py-8 {
+  padding-top: 8rem!important;
+}
+
+.mb-2, .my-2 {
+  margin-bottom: .5rem!important;
+}
+.mt-2, .my-2 {
+  margin-top: .5rem!important;
+}
+.justify-content-center {
+  justify-content: center!important;
+}
+.btn-custom {
+  border: 2px solid #eaf2fd;
+  background-color: transparent!important;
+}
+.btn-custom p {
+  color: #304256;
+}
+.mb-2, .my-2 {
+  margin-bottom: .5rem!important;
+}
+.pl-4, .px-4 {
+  padding-left: 1.5rem!important;
+}
+.pr-4, .px-4 {
+  padding-right: 1.5rem!important;
+}
+.pb-3, .py-3 {
+  padding-bottom: 1rem!important;
+}
+.pt-3, .py-3 {
+  padding-top: 1rem!important;
+}
+.mb-4, .my-4 {
+  margin-bottom: 1.5rem!important;
+}
+.mt-4, .my-4 {
+  margin-top: 1.5rem!important;
+}
+.btn-custom.active {
+  border: 2px solid #2f80ed!important;
+  background-color: #f5f8fd!important;
+}
